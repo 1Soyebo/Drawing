@@ -48,13 +48,15 @@ struct ContentView: View {
     @State private var colorCycle = 0.0
 
     var body: some View {
-        VStack {
-            ColorCyclingCircle(amount: self.colorCycle)
-                .frame(width: 300, height: 300)
-            
-
-            Slider(value: $colorCycle)
+        ZStack {
+            Image("example")
+                .resizable()
+                .scaledToFit()
+//                .frame(width: 100, height: 100)
+                    .colorMultiply(.red)
         }
+        .frame(width: 400, height: 500)
+        .clipped()
     }
 }
 
