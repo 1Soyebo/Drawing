@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4FD9702708E76500E7CC54 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FD96F2708E76500E7CC54 /* ColorCyclingCircle.swift */; };
 		2B734DC22704FF8600CD82BA /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B734DC12704FF8600CD82BA /* DrawingApp.swift */; };
 		2B734DC42704FF8600CD82BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B734DC32704FF8600CD82BA /* ContentView.swift */; };
 		2B734DC62704FF8E00CD82BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B734DC52704FF8E00CD82BA /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B4FD96F2708E76500E7CC54 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
 		2B734DBE2704FF8600CD82BA /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B734DC12704FF8600CD82BA /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		2B734DC32704FF8600CD82BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				2B734DC52704FF8E00CD82BA /* Assets.xcassets */,
 				2B734DC72704FF8E00CD82BA /* Preview Content */,
 				2B734DCF2708D7BA00CD82BA /* Flower.swift */,
+				2B4FD96F2708E76500E7CC54 /* ColorCyclingCircle.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B734DC42704FF8600CD82BA /* ContentView.swift in Sources */,
+				2B4FD9702708E76500E7CC54 /* ColorCyclingCircle.swift in Sources */,
 				2B734DC22704FF8600CD82BA /* DrawingApp.swift in Sources */,
 				2B734DD02708D7BA00CD82BA /* Flower.swift in Sources */,
 			);
