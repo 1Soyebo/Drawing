@@ -45,14 +45,16 @@ struct Arc: InsettableShape {
 }
 
 struct ContentView: View {
-    @State private var petalOffset = -20.0
-    @State private var petalWidth = 100.0
+    @State private var colorCycle = 0.0
 
     var body: some View {
-        Capsule()
-            .strokeBorder(ImagePaint(image: Image("example"), scale: 0.1), lineWidth: 20)
-            .frame(width: 300, height: 200)
+        VStack {
+            ColorCyclingCircle(amount: self.colorCycle)
+                .frame(width: 300, height: 300)
+            
 
+            Slider(value: $colorCycle)
+        }
     }
 }
 
